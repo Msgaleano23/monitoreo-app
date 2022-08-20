@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+#encabezado{
+    background-color: #EA752E;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.imgcircle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid #EA752E;
+}
+
+.name{
+    display: inline-block;
+    vertical-align: top;
+    font-family: fantasy;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+#container{
+    width: 250px;
+    height: 250px;
+    border: 2px solid #EA752E;
+    margin: 20px;
+}
+
+#container{
+    display: block;
+    float: left;
+}
+
+#container h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: fantasy;
+    padding-bottom: 10px;
+}
+
+a{
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: fantasy;
+    color: black;
+}

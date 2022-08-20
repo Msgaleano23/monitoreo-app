@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/deportista.css">
+    <title>Deportista</title>
+</head>
+<body>
+    <section id="global">
+        <!--Cabezera-->
+        <header id="encabezado">
+            <h1>Profe Monitoreo</h1>
+            <nav id="menu">
+            </nav>
+        </header>
+        <div id="form-e">
+            <form action="#" autocomplete="on">
+                <label for="entrenador">Te entrena alguien?</label> 
+                <br>
+                <input type="radio" name="dt" id="Si" value="si">
+                <label for="no">Si</label>
+                <input type="radio" name="dt" id="No" value="no">
+                <label for="si">No</label>
+                <br>
+                <label for="edad">Que edad tienes?</label>
+                <input type="number" name="edad" id="edad" min="5" max="80" value="0" placeholder="Edad">
+                <br>
+                <label for="deporte">Que deporte practicas?</label>
+                <input type="text" name="deporte" id="deporte">
+                <br>
+                <label for="dias">Cuantos dias a la semana entrenas?</label>
+                <input type="number" name="dias" id="dias" min="0" max="7">
+                <br>
+                <label for="tiempo">Hace cuanto tiempo practicas deporte?</label>
+                <input type="text" name="tiempo" id="tiempo">
+                <br>
+                <label for="estrato">Que estrato eres?</label>
+                <select id="estrato">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <br>
+                <label for="comidas">Cuantas veces al dia tomas comidas completas?</label>
+                <input type="number" name="comidas" id="comidas" min="0" max="6">
+                <br>
+                <label for="enfermedad">Tienes alguna enfermedad cardiovascular diagnosticada?</label>
+                <input type="radio" name="enfermedad" id="Si_enf" value="Si">
+                <label for="Si">Si</label>
+                <input type="radio" name="enfermedad" id="No_enf" value="No">
+                <label for="No">No</label>
+                <br><br>
+                <button type="button" onclick="capturadp()">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <script src="js/deportista.js"></script>
+</body>
+</html>

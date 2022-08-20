@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/entrenador.css">
+    <title>Entrenador</title>
+</head>
+<body>
+    <section id="global">
+        <!--Cabezera-->
+        <header id="encabezado">
+            <h1>Profe Monitoreo</h1>
+            <nav id="menu">
+            </nav>
+        </header>
+        <div id="form-e">
+            <form action="new_plantilla.html" autocomplete="on">
+                <label for="deporte">
+                    <p class="Q1">Que agrupacion deportiva suele entrenar usted?</p>
+                </label>
+                <select id="deporte">
+                    <option value="Pelota">Pelota</option>
+                    <option value="Raqueta">Raqueta</option>
+                    <option value="Tiempo y marca terrestre">Tiempo y marca terrestre</option>
+                    <option value="Tiempo y marca acuatico">Tiempo y marca acuatico</option>
+                    <option value="Arte competitivo y precision">Arte competitivo y precision</option>
+                    <option value="Combate">Combate</option>
+                </select>
+                <label for="entrenar">
+                    <p>Cuanto tiempo entrena el equipo/deportista? (hora/semana)</p>
+                </label>
+                <input type="text" name="entrenar" id="entrena" placeholder="8/6">
+                <br>
+                <label for="competicion">
+                    <p>El grupo participa en alguna competicion? (Distritales, Departamentales, Regionales, Nacionales O Internacionales)</p>
+                </label>
+                <input type="text" name="competicion" id="competencia" placeholder="Nacionales">
+                <br>
+                <br>
+                <button type="button" onclick="captura()">Prueba de datos</button>
+                <input type="submit">
+            </form>
+        </div>
+    </section>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

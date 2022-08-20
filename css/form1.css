@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#encabezado{
+    background: #EA752E;
+}
+
+h1{
+    font-family: cursive;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* menu */
+
+/*Entrenador*/
+
+#entrenador{
+    font-family: cursive;
+    color: black;
+    border: 7px solid #17A589;
+    border-radius: 69px;
+    box-shadow: 0 0 0 3px #0e7561;
+    position: relative;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    margin-left: 630px;
+    margin-bottom: -4px;
+}
+
+a{
+    color: black;
+    float: right;
+    text-decoration: none;
+    display: block;
+    margin-right: 625px;
+}
+
+/*Deportista*/
+
+#deportista{
+    font-family: cursive;
+    color: black;
+    border: 7px solid #17A589;
+    border-radius: 69px;
+    box-shadow: 0 0 0 3px #0e7561;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/*fisio*/
+
+#fisio{
+    font-family: cursive;
+    color: black;
+    border: 7px solid #17A589;
+    border-radius: 69px;
+    box-shadow: 0 0 0 3px #0e7561;
+    position: relative;
+    margin-top: 80px;
+}
+
+.fisio{
+    color: black;
+    float: right;
+    text-decoration: none;
+    display: block;
+    margin-right: 600px;
+}

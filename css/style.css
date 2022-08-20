@@ -1,0 +1,88 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+    background-image: url("../images/Siluetas-box.jpg");
+}
+
+#login{
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 108px;
+    background-color: rgba(0, 0 , 0 ,0.5);
+    border: 2px solid rgba(0, 0 , 0 , 0);
+    box-shadow: 0 0 0 1px #FA791C;
+    padding: 11px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+p{
+    font-family: cursive;
+    font-size: 15px;
+    color: white;
+    text-shadow:0.5px 1px 1px #17A589;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"],
+select{
+	padding: 5px;
+	border-radius: 5px;
+	border: 3px solid #FA791C;
+    box-sizing: border-box;
+	width: 150px;
+	margin-bottom: 10px;
+    outline: none;
+}
+
+form input[type="submit"]{
+	background: #eee;
+	padding: 10px;
+	border: 1px solid #ccc;
+	color: #333;
+	cursor: pointer;
+}
+
+#form_enter{
+    width: 110px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+    box-shadow: 0px 0px 5px #0f856d;
+    border: 2px solid #17A589;
+}
+
+#form_enter:hover{
+    background-color: aquamarine;
+    border: 2px solid black;
+    box-shadow: 0 0 10px #17A589;
+}
+
+input[type=text]:focus,
+form input[type="password"]:focus,
+form input[type="number"]:focus{
+    border: 5px solid #ff7b00fd;
+}
+
+a{
+    padding: 5px;
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 0.5px 1px 1px #17A589;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: lightgray;
+    border: 2px solid black;
+    color:black;
+    box-shadow: 0 0 10px #17A589;
+}
