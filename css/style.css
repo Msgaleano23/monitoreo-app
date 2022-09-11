@@ -1,6 +1,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
+    font-family: cursive;
 }
 
 body{
@@ -14,7 +15,7 @@ body{
     margin-top: 108px;
     background-color: rgba(0, 0 , 0 ,0.5);
     border: 2px solid rgba(0, 0 , 0 , 0);
-    box-shadow: 0 0 0 1px #FA791C;
+    box-shadow: 0 0 0 1px #008178;
     padding: 11px;
 }
 
@@ -24,7 +25,7 @@ h2{
 }
 
 p{
-    font-family: cursive;
+    
     font-size: 15px;
     color: white;
     text-shadow:0.5px 1px 1px #17A589;
@@ -36,7 +37,7 @@ form input[type="number"],
 select{
 	padding: 5px;
 	border-radius: 5px;
-	border: 3px solid #FA791C;
+	border: 3px solid #008178;
     box-sizing: border-box;
 	width: 150px;
 	margin-bottom: 10px;
@@ -69,7 +70,7 @@ form input[type="submit"]{
 input[type=text]:focus,
 form input[type="password"]:focus,
 form input[type="number"]:focus{
-    border: 5px solid #ff7b00fd;
+    border: 5px solid #008185;
 }
 
 a{

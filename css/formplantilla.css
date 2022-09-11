@@ -1,14 +1,14 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: cursive;
 }
 
 #encabezado{
-    background: #EA752E;
+    background: #008178;
 }
 
 h1{
-    font-family: cursive;
     color: white;
     font-size: 50px;
     text-align: center;

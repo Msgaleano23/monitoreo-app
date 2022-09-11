@@ -29,17 +29,23 @@
                     <option value="Combate">Combate</option>
                 </select>
                 <label for="entrenar">
-                    <p>Cuanto tiempo entrena el equipo/deportista? (hora/semana)</p>
+                    <p>Cuanto tiempo entrena el equipo/deportista? (hora*semana)</p>
                 </label>
-                <input type="text" name="entrenar" id="entrena" placeholder="8/6">
+                <input type="text" name="entrenar" id="entrena" placeholder="8*6">
                 <br>
                 <label for="competicion">
-                    <p>El grupo participa en alguna competicion? (Distritales, Departamentales, Regionales, Nacionales O Internacionales)</p>
+                    <p class="Q1">El grupo participa en alguna competicion?</p>
                 </label>
-                <input type="text" name="competicion" id="competencia" placeholder="Nacionales">
+                <select id="competicion">
+                    <option value="Hobbie">Hobbie</option>
+                    <option value="Distrital">Distrital</option>
+                    <option value="Departamental">Departamental</option>
+                    <option value="Nacional">Nacional</option>
+                    <option value="Internacional">Internacional</option>
+                    <option value="Olimpico">Olimpico</option>
+                </select>
                 <br>
                 <br>
-                <button type="button" onclick="captura()">Prueba de datos</button>
                 <input type="submit">
             </form>
         </div>

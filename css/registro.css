@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: cursive;
 }
 
 body{
@@ -13,7 +14,6 @@ h1{
 }
 
 p{
-    font-family: cursive;
     font-size: 15px;
     text-align: center;
     color: white;
@@ -27,7 +27,7 @@ p{
     margin-top: 108px;
     background-color: rgba(0, 0 , 0 ,0.5);
     border: 2px solid rgba(0, 0 , 0 , 0);
-    box-shadow: 0 0 0 1px #FA791C;
+    box-shadow: 0 0 0 1px #008178;
     padding: 11px;
 }
 form input[type="text"],
@@ -37,7 +37,7 @@ form input[type="email"],
 select{
 	padding: 5px;
 	border-radius: 5px;
-	border: 3px solid #FA791C;
+	border: 3px solid #008178;
     box-sizing: border-box;
 	width: 60%;
 	margin-bottom: 10px;
@@ -56,7 +56,7 @@ form input[type="submit"]{
 #form_enter{
     padding: 5px;
     border-radius: 3px;
-    border: 2px solid #EA752E;
+    border: 2px solid #008178;
     width: 30%;
     margin-bottom: 10px;
     margin-top: 5px;
@@ -67,7 +67,7 @@ input[type=text]:focus,
 form input[type="password"]:focus,
 form input[type="number"]:focus,
 form input[type="email"]:focus{
-    border: 5px solid #ff7b00fd;
+    border: 5px solid #008185;
 }
 
 .Reg{

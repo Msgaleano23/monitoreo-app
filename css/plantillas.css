@@ -4,7 +4,7 @@
     font-family: cursive;
 }
 #encabezado{
-    background-color: #EA752E;
+    background-color: #008178;
 }
 
 h1{
@@ -17,7 +17,7 @@ h1{
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    border: 3px solid #EA752E;
+    border: 3px solid #008178;
 }
 
 .name{
@@ -32,7 +32,7 @@ h1{
 #container{
     width: 250px;
     height: 250px;
-    border: 2px solid #EA752E;
+    border: 2px solid #008178;
     margin: 20px;
 }
 

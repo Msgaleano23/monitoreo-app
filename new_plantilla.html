@@ -18,27 +18,47 @@
         <div id="form-p">
             <form action="jose-prieto.html" autocomplete="on">
                 <label for="tipo-p" class="Q1">
-                    <p >Personalizado o Equipo</p>
+                    <p >Personalizado, Equipo o Pareja</p>
                 </label>
                 <select name="tipo-p" id="plantilla">
                     <option value="Personalizado">Personalizado</option>
                     <option value="Equipo">Equipo</option>
+                    <option value="Pareja">Pareja</option>
+                </select>
+
+                <label for="agrupacion" class="Q1">
+                    <p >Que agrupacion deportiva suele entrenar usted?</p>
+                </label>
+                <select id="agrupacion">
+                    <option value="Pelota">Pelota</option>
+                    <option value="Raqueta">Raqueta</option>
+                    <option value="Tiempo y marca terrestre">Tiempo y marca terrestre</option>
+                    <option value="Tiempo y marca acuatico">Tiempo y marca acuatico</option>
+                    <option value="Arte competitivo y precision">Arte competitivo y precision</option>
+                    <option value="Combate">Combate</option>
                 </select>
                 
                 <label for="deporte" class="Q1">
-                    <p>Que deporte se entrenara?</p>
+                    <p>Que deporte se entrenara, bajo la agrupacion?</p>
                 </label>
                 <input type="text" name="deporte" id="deporte" placeholder="Futbol">
 
                 <label for="frecuencia" class="Q1">
-                    <p>Con cuanta frecuencia se practicara el deporte en horas/semana?</p>
+                    <p>Con cuanta frecuencia se practicara el deporte en horas*semana?</p>
                 </label>
-                <input type="text" name="frecuencia" id="frecuencia" placeholder="8/6">
+                <input type="text" name="frecuencia" id="frecuencia" placeholder="8*6">
 
-                <label for="nivel" class="Q1">
-                    <p>Nivel de competecion? </p>
+                <label for="competicion" class="Q1">
+                    <p>El grupo participa en alguna competicion?</p>
                 </label>
-                <input type="text" name="nivel" id="nivel" placeholder="Amateur">
+                <select id="competicion">
+                    <option value="Hobbie">Hobbie</option>
+                    <option value="Distrital">Distrital</option>
+                    <option value="Departamental">Departamental</option>
+                    <option value="Nacional">Nacional</option>
+                    <option value="Internacional">Internacional</option>
+                    <option value="Olimpico">Olimpico</option>
+                </select>
                 <br>
                 <input type="submit">
             </form>    
